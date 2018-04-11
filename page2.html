@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- set the encoding of your site -->
+	<meta charset="utf-8">
+	<!-- set the viewport width and initial-scale on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Frii-task</title>
+	<!-- include the site stylesheet -->
+	<link media="all" rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+	<!-- include jQuery library -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js" defer><\/script>')</script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<!-- include custom JavaScript -->
+	<script src="js/jquery.main.js" defer></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div id="wrapper">
+		<!-- header of the page -->
+		<header id="header">
+			<a href="#" class="nav-opener"><span></span></a>
+			<div class="header-holder">
+				<div class="logos-holder">
+					<div class="logo">
+						<a href="#">
+							<img src="images/logo-header-1.png" width="100" height="100" alt="frii">
+						</a>
+					</div>
+					<div class="logo-glob">
+						<a href="#">
+							<img src="images/logo-gb-white.svg" width="150" height="50" alt="globbuzzer">
+						</a>
+					</div>
+				</div>
+				<div class="right-col">
+					<nav id="nav">
+						<ul class="menu">
+							<li><a href="#">Products</a></li>
+							<li><a href="#">Read more</a></li>
+							<li><a href="#">Partners</a></li>
+						</ul>
+					</nav>
+					<ul class="user-nav">
+						<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- main content -->
+		<main id="main">
+			<div class="container">
+				<form class="product-block">
+					<div class="column">
+						<header class="header">
+							<h2>your cart</h2>
+						</header>
+						<div class="wrap">
+							<div class="heading-holder">
+								<strong class="heading">TriLens</strong>
+							</div>
+							<div class="img-box">
+								<img src="images/img-box.jpg" width="1000" height="884" alt="img description">
+							</div>
+							<div class="form-group">
+								<label for="quantity">Quantity</label>
+								<div class="input-holder">
+									<input class="small form-control" value="1" id="quantity" type="number">
+								</div>
+							</div>
+							<div class="price-holder">
+								<div class="price-text">Price:</div>
+								<input class="small form-control readonly" readonly id="total" type="number" placeholder="99">
+								<strong class="price">  &euro;<span class="text">+ shipping</span></strong>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<header class="header">
+							<h2>payment options</h2>
+						</header>
+						<div class="wrap">
+							<div class="heading-holder">
+								<i class="ico far fa-credit-card"></i>
+								<strong class="heading">Credit Card</strong>
+							</div>
+							<div class="form-group">
+								<label for="card">Card Number</label>
+								<div class="input-holder">
+									<input class="form-control" id="card" type="number" placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="verify">Verification number</label>
+								<div class="input-holder">
+									<input class="medium form-control" id="verify" type="number" placeholder="">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="card1">Card expires on:</label>
+								<div class="input-holder">
+									<input class="medium datepicker form-control" id="card1" type="text" placeholder="mm/yy">
+								</div>
+							</div>
+							<div class="btn-holder">
+								<button type="submit" class="btn">Buy now</button>
+							</div>
+							<div class="link-holder">
+								<a href="#" class="paypal">Pay with PayPal</a>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</main>
+		<!-- footer of the page -->
+		<footer id="footer"></footer>
+	</div>
+</body>
+</html>
